@@ -1,0 +1,15 @@
+#pipchess-btn {
+  position: fixed;
+  right: 16px;
+  bottom: 16px;
+  z-index: 2147483647;
+  padding: 10px 14px;
+  border: 0;
+  border-radius: 8px;
+  background: #81b64c;
+  color: #fff;
+  font: 600 14px/1 system-ui, sans-serif;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+}
+#pipchess-btn:hover { background: #95c35f; }

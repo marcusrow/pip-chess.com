@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Chess.com PiP",
+  "version": "1.0.0",
+  "description": "Đưa bàn cờ chess.com vào cửa sổ Picture-in-Picture luôn nổi trên cùng.",
+  "content_scripts": [
+    {
+      "matches": ["https://www.chess.com/*"],
+      "js": ["content.js"],
+      "css": ["content.css"],
+      "run_at": "document_idle"
+    }
+  ]
+}
